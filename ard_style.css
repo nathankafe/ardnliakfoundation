@@ -1,0 +1,237 @@
+/*FONT & CONTAINER DIMENSIONS*/
+
+@media (max-width: 768px){
+	
+}
+
+h1{
+	font-size: 48px;
+	color: deeppink;
+	font-family: "Times New Roman", Times, serif;
+}
+
+h2{
+	font-size: 32px;
+	font-family: "Times New Roman", Times, serif;
+
+}
+
+h3{
+	font-size: 24px;
+	font-style: italic;
+	font-family: "Times New Roman", Times, serif;
+
+}
+
+p{
+	font-size: 16px;
+}
+
+a{
+	font-size: 18px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+/*******************FONT & CONTAINER SECTION END********************************/
+
+/*HEADER SECTION CSS*/
+
+.ard-main-nav img{
+	height:60px;
+	max-width:100%;
+	float: left;
+}
+
+.ard-main-nav ul{
+	display: flex;
+	float: right;
+	list-style: none;
+}
+
+header.ard-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 15px 0;
+
+}
+
+header a{
+	margin: 0 10px;
+}
+
+.btn{
+	background-color: deeppink !important;
+	border-color: deeppink !important;
+	transition: background-color 0.2s ease!important;
+}
+
+.btn:hover{
+	background-color: white !important;
+	color: deeppink !important;
+	border: 1px solid deeppink;
+}
+
+.btn-secondary{
+	background-color: white !important;
+	border-color: white !important;
+}
+
+
+.btn-secondary a{
+	color: deeppink !important;
+}
+
+.btn-secondary a:hover{
+	text-decoration: underline;
+}
+
+.btn a{
+	color: white;
+	text-decoration: none;
+	transition: color 0.2s ease!important;
+}
+
+.btn a:hover{
+	color: deeppink;
+}
+
+
+/*************************/
+
+/*HERO SECTION CSS*/
+
+.ard-hero img{
+	height: 100%;
+	object-fit: cover;
+	max-inline-size: 100%;
+}
+
+.ard-hero{
+	margin-bottom: -20px;
+}
+
+/***********************/
+
+/*OFFICER SECTION CSS*/
+
+.ard-officers h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 0px;
+	gap: 1rem;
+	width: 100%;
+}
+
+.ard-officers h1::before{
+	content: ""; /* Required for pseudo-elements */
+  flex: 1; /* Take remaining space (pushes text to center) */
+  height: 2px; /* Line thickness */
+  background: deeppink; /* Line color */
+}
+
+.ard-officers h1::after{
+	content: ""; /* Required for pseudo-elements */
+  flex: 1; /* Take remaining space (pushes text to center) */
+  height: 2px; /* Line thickness */
+  background: deeppink; /* Line color */
+}
+
+.officer-info img {
+    width: 335px;        
+    height: 335px;      
+    object-fit: cover;   
+    border-radius: 50%; 
+    display: block;
+    border: 2px solid deeppink;
+}
+
+.col-md{
+	margin: 50px 0px; /*GAPS IN BETWEEN SECTIONS*/
+}
+
+.officer-info hr {
+	border: none;
+	height: 2px;
+	opacity: 1;
+	background-color: deeppink;
+	margin: 50px 0;
+}
+
+
+/***********************/
+
+/*FOOTER SECTION CSS*/
+
+.ard-footer img{
+	height: 20px;
+	width: 20px;
+	margin: 16px;
+	display: flex;
+}
+
+.ard-footer ul{
+	list-style: none;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.ard-footer{
+	background-color: deeppink;
+}
+
+/****************/
+
+/*ILM SECTION CSS*/
+.ilm {
+	margin: 100px 0;
+}
+.ilm-title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	width: 100%;
+}
+
+.gordon{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.ilm-statement{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+
+/*****************HOMEPAGE SECTION END***********************************************/
+
+/*CONTACT PAGE CSS*/
+
+.ard-contact-header h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 20px;
+}
+
+.ilm h1{
+	color: deeppink;
+}
+
+.ard-contact-form{
+	margin-bottom: 87px;
+}
+
+.btn-submit{
+	color: white!important;
+	font-family: "Times New Roman", Times, serif !important;
+}
