@@ -2,6 +2,9 @@
 
 @media (max-width: 768px){
 	
+	.col-md{
+		flex-direction: column;
+	}
 }
 
 h1{
@@ -234,4 +237,16 @@ header a{
 .btn-submit{
 	color: white!important;
 	font-family: "Times New Roman", Times, serif !important;
+}
+
+/*SUCCESS PAGE*/
+.thankYou h1, p{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+
+}
+
+.thankYou{
+	height: 76vh;
 }
