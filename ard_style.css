@@ -39,6 +39,9 @@ a{
 	font-family: "Times New Roman", Times, serif;
 }
 
+
+
+
 /*******************FONT & CONTAINER SECTION END********************************/
 
 /*HEADER SECTION CSS*/
@@ -77,6 +80,10 @@ header a{
 	background-color: white !important;
 	color: deeppink !important;
 	border: 1px solid deeppink;
+}
+
+.btn-primary{
+	font-family: "Times New Roman", Times, serif !important;
 }
 
 .btn-secondary{
